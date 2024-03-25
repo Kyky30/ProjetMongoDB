@@ -22,6 +22,9 @@ Ce projet consiste en une API de défis d'éco-conception aléatoires avec une a
 - Démarrez le serveur avec la commande : `npm start`.
 
 ## Utilisation
+
+Pour toutes les requêtes, il vous faudra utiliser un token, sauf pour demander un seul défi aléatoire.
+
 - Pour récupérer un défi aléatoire : `GET /challenges/random`.
 - Pour récupérer plusieurs défis aléatoires : `GET /challenges/random/:count`.
 - Pour ajouter un défi : `POST /challenges` (authentification requise).

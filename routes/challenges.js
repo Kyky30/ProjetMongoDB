@@ -19,7 +19,7 @@ router.get('/random', async (req, res) => {
 });
 
 // Route pour récupérer plusieurs défis aléatoires
-router.get('/random/:count', async (req, res) => {
+router.get('/random/:count', authenticateToken, async (req, res) => {
   try {
     const count = parseInt(req.params.count);
     const challenges = await Challenge.aggregate([
