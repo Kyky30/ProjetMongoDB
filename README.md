@@ -28,11 +28,8 @@ Ce projet consiste en une API de défis d'éco-conception aléatoires avec une a
 - Pour modifier un défi : `PUT /challenges/:id` (authentification requise).
 - Pour supprimer un défi : `DELETE /challenges/:id` (authentification requise).
 
-## Contributing
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à proposer une pull request.
-
 ## Auteur
-[Ajoutez votre nom ici]
+Kylian VINEL & Dorian ROCHETTE
 
 ## Licence
 Ce projet est sous licence [MIT](https://opensource.org/licenses/MIT).
